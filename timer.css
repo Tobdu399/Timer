@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.timer {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.timer2 {
+  background-color: #d6d6d6;
+  border: solid black 3px;
+  border-radius: 20px;
+  display: block;
+  display: inline-block;
+  text-align: center;
+}
+
+.timer-display {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.timer-display h1 {
+  background-color: white;
+  padding: 10px;
+  font-weight: 100;
+
+  width: 200px;
+  border: solid black 2px;
+  border-radius: 10px;
+
+  display: block;
+  display: inline-block;
+}
+
+.start-reset {
+  text-align: center;
+}
+
+.start-reset button {
+  background-color: white;
+  width: 100px;
+  padding: 5px;
+
+  border-radius: 10%;
+}
+
+#startBtn {
+  margin-right: 20px;
+}
+
+.number-buttons {
+  padding: 30px;
+  text-align: center;
+}
+
+.buttons button {
+  background-color: white;
+  width: 59px;
+  border-radius: 10%;
+}
+
+#button1 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#button2 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#button4 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#button5 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#button7 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#button8 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#button0 {
+  width: 225px;
+}

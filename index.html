@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="timer.css">
+    <script src="timer.js"></script>
+    <title>Ajastin</title>
+  </head>
+
+  <body>
+
+    <div class="timer">
+      <div class="timer2">
+        <div class="timer-display">
+          <h1 id="timerDisplay">0 : 00</h1>
+        </div>
+
+        <div class="start-reset">
+          <button id="startBtn" type="button" onclick="startTimer()">Start</button>
+          <button id="resetBtn" type="button" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="number-buttons">
+          <div class="buttons">
+            <button id="button1" type="button" onclick="add1()">1</button>
+            <button id="button2" type="button" onclick="add2()">2</button>
+            <button id="button3" type="button" onclick="add3()">3</button>
+          </div>
+
+          <div class="buttons">
+            <button id="button4" type="button" onclick="add4()">4</button>
+            <button id="button5" type="button" onclick="add5()">5</button>
+            <button id="button6" type="button" onclick="add6()">6</button>
+          </div>
+
+          <div class="buttons">
+            <button id="button7" type="button" onclick="add7()">7</button>
+            <button id="button8" type="button" onclick="add8()">8</button>
+            <button id="button9" type="button" onclick="add9()">9</button>
+          </div>
+
+          <div class="buttons">
+            <button id="button0" type="button" onclick="add0()">0</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
