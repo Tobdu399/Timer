@@ -14,6 +14,7 @@ function reset() {
   place1 = 0;
   place2 = 0;
   place3 = 0;
+  document.getElementById("startBtn").disabled = false;
   updateTimer();
   enable6789();
 }
@@ -264,6 +265,8 @@ function add9() {
 
 // TIMER SECTION ------------------------------------
 function startTimer() {
+  document.getElementById("startBtn").disabled = true;
+
   if (number3 > 0) {
     number3 -= 1;
     updateTimer();
